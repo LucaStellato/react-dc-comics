@@ -43,15 +43,19 @@ export default function Main() {
                             </ul>
                         </div>
                         <div className="col-lg-2">
-                            <h5>DC COMICS</h5>
+                            <h5>DC</h5>
                             <ul className="list-unstyled">
-                                <li style={{ color: 'grey' }}>Characters</li>
-                                <li style={{ color: 'grey' }}>Comics</li>
-                                <li style={{ color: 'grey' }}>Movies</li>
-                                <li style={{ color: 'grey' }}>TV</li>
-                                <li style={{ color: 'grey' }}>Games</li>
-                                <li style={{ color: 'grey' }}>Videos</li>
-                                <li style={{ color: 'grey' }}>News</li>
+                                <li style={{ color: 'grey' }}>Terms of Use</li>
+                                <li style={{ color: 'grey' }}>Privacy policy(new)</li>
+                                <li style={{ color: 'grey' }}>Ad choices</li>
+                                <li style={{ color: 'grey' }}>Advertising</li>
+                                <li style={{ color: 'grey' }}>Jobs</li>
+                                <li style={{ color: 'grey' }}>Subscriptions</li>
+                                <li style={{ color: 'grey' }}>Talent Workshops</li>
+                                <li style={{ color: 'grey' }}>CPSC certificates</li>
+                                <li style={{ color: 'grey' }}>Ratings</li>
+                                <li style={{ color: 'grey' }}>shop Help</li>
+                                <li style={{ color: 'grey' }}>Contact Us</li>
                             </ul>
                         </div>
                         <div className="col-lg-2">
