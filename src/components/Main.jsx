@@ -1,3 +1,5 @@
+import cell from '../assets/img/buy-comics-digital-comics.png';
+
 export default function Main() {
     return (
         <>
@@ -5,7 +7,7 @@ export default function Main() {
                 <span style={{ marginTop: '20px', marginLeft: '60px' }}>--Content goes here--</span>
 
             </div >
-            <div style={{ backgroundColor: 'blue', minHeight: '180px' }}>
+            <div style={{ backgroundColor: 'blue', minHeight: '200px' }}>
 
             </div>
 
