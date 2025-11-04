@@ -4,6 +4,8 @@ import subscription from '../assets/img/buy-comics-subscriptions.png';
 import locator from '../assets/img/buy-comics-shop-locator.png';
 import power from '../assets/img/buy-dc-power-visa.svg';
 import final from '../assets/img/footer-bg.jpg';
+import favicon from '../assets/img/favicon.ico';
+import logo from '../assets/img/dc-logo.png';
 
 
 export default function Main() {
@@ -13,7 +15,7 @@ export default function Main() {
                 <span style={{ marginTop: '20px', marginLeft: '60px' }}>--Content goes here--</span>
 
             </div >
-            <div className="d-flex justify-content-center " style={{ backgroundColor: 'blue', minHeight: '150px', color: 'white' }}>
+            <div className="d-flex justify-content-center " style={{ backgroundColor: 'blue', minHeight: '150px', color: 'white', zIndex: 1, position: 'relative' }}>
                 <img src={comics} style={{ height: '60px', marginTop: '50px' }} />
                 <span className=' mx-3' style={{ marginTop: '60px', paddingRight: '30px' }}>DIGITAL COMICS</span>
                 <img src={merchandise} style={{ height: '60px', marginTop: '50px' }} />
@@ -27,7 +29,7 @@ export default function Main() {
             </div>
 
             <div className="container-fluid" style={{ backgroundImage: `url(${final})`, minHeight: '400px', color: 'white' }}>
-                <div className="container-fluid" style={{ backgroundImage: `url(${final})`, minHeight: '400px', color: 'white' }}>
+                <div className="container-fluid" style={{ backgroundImage: `url(${final})`, minHeight: '400px', color: 'white', position: 'relative' }}>
 
                     <div className="row pt-4 g-1 ps-5">
                         <div className="col-lg-2">
@@ -82,7 +84,10 @@ export default function Main() {
                         </div>
                     </div>
                 </div>
+                <img src={logo} style={{ width: '550px', position: 'absolute', top: 'calc(100% - 150px)', right: 50, top: 368, transform: 'rotate(-30deg)', zIndex: 0 }} />
 
+            </div>
+            <div style={{ backgroundColor: 'grey', minHeight: '200px' }}>
 
             </div>
         </>
