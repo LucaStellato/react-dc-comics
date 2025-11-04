@@ -3,6 +3,7 @@ import merchandise from '../assets/img/buy-comics-merchandise.png';
 import subscription from '../assets/img/buy-comics-subscriptions.png';
 import locator from '../assets/img/buy-comics-shop-locator.png';
 import power from '../assets/img/buy-dc-power-visa.svg';
+import final from '../asstes/img/footer-bg.jpg';
 
 
 export default function Main() {
@@ -24,6 +25,8 @@ export default function Main() {
                 <img src={power} style={{ height: '60px', marginTop: '50px' }} />
                 <span className=' mx-3' style={{ marginTop: '60px', paddingRight: '30px' }}>CDC POWER VISA</span>
             </div>
+
+
 
         </>
     )
