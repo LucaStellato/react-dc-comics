@@ -87,9 +87,7 @@ export default function Main() {
                 <img src={logo} style={{ width: '550px', position: 'absolute', top: 'calc(100% - 150px)', right: 50, top: 368, transform: 'rotate(-30deg)', zIndex: 0 }} />
 
             </div>
-            <div style={{ backgroundColor: 'grey', minHeight: '200px', color: 'white' }}>
-                <button className="btn btn-outline-primary text-white bg-transparent ">SIGN-UP NOW!</button>
-            </div>
+
         </>
     )
 }
