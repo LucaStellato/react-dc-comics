@@ -73,16 +73,11 @@ export default function Main() {
 
 
                     <div className="row mt-2 ps-5">
-                        <div className="col-lg-2">
+                        <div className="col-lg-2" style={{ position: 'relative', top: -80 }}>
                             <h5>SHOP</h5>
                             <ul className="list-unstyled">
-                                <li style={{ color: 'grey' }}>Characters</li>
-                                <li style={{ color: 'grey' }}>Comics</li>
-                                <li style={{ color: 'grey' }}>Movies</li>
-                                <li style={{ color: 'grey' }}>TV</li>
-                                <li style={{ color: 'grey' }}>Games</li>
-                                <li style={{ color: 'grey' }}>Videos</li>
-                                <li style={{ color: 'grey' }}>News</li>
+                                <li style={{ color: 'grey' }}>Shop DC</li>
+                                <li style={{ color: 'grey' }}>Shop DC Collectibles</li>
                             </ul>
                         </div>
                     </div>
