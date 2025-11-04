@@ -15,7 +15,7 @@ export default function Main() {
                 <span style={{ marginTop: '20px', marginLeft: '60px' }}>--Content goes here--</span>
 
             </div >
-            <div className="d-flex justify-content-center " style={{ backgroundColor: 'blue', minHeight: '150px', color: 'white', zIndex: 1, position: 'relative' }}>
+            <div className="d-flex justify-content-center " style={{ backgroundColor: '#0282f9', minHeight: '150px', color: 'white', zIndex: 1, position: 'relative' }}>
                 <img src={comics} style={{ height: '60px', marginTop: '50px' }} />
                 <span className=' mx-3' style={{ marginTop: '60px', paddingRight: '30px' }}>DIGITAL COMICS</span>
                 <img src={merchandise} style={{ height: '60px', marginTop: '50px' }} />
