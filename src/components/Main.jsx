@@ -59,15 +59,14 @@ export default function Main() {
                             </ul>
                         </div>
                         <div className="col-lg-2">
-                            <h5>DC COMICS</h5>
+                            <h5>SITIES</h5>
                             <ul className="list-unstyled">
-                                <li style={{ color: 'grey' }}>Characters</li>
-                                <li style={{ color: 'grey' }}>Comics</li>
-                                <li style={{ color: 'grey' }}>Movies</li>
-                                <li style={{ color: 'grey' }}>TV</li>
-                                <li style={{ color: 'grey' }}>Games</li>
-                                <li style={{ color: 'grey' }}>Videos</li>
-                                <li style={{ color: 'grey' }}>News</li>
+                                <li style={{ color: 'grey' }}>DC</li>
+                                <li style={{ color: 'grey' }}>MAD Magazine</li>
+                                <li style={{ color: 'grey' }}>DC Kids</li>
+                                <li style={{ color: 'grey' }}>DC universe</li>
+                                <li style={{ color: 'grey' }}>DC power Visa</li>
+
                             </ul>
                         </div>
                     </div>
@@ -75,7 +74,7 @@ export default function Main() {
 
                     <div className="row mt-2 ps-5">
                         <div className="col-lg-2">
-                            <h5>DC COMICS</h5>
+                            <h5>SHOP</h5>
                             <ul className="list-unstyled">
                                 <li style={{ color: 'grey' }}>Characters</li>
                                 <li style={{ color: 'grey' }}>Comics</li>
