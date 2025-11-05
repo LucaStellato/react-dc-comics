@@ -170,10 +170,10 @@ export default function Main() {
             <div style={{ position: 'relative', objectFit: 'cover', width: '100%', height: '400px', overflow: 'hidden' }}>
                 <img src={jumbotron} style={{ width: '100%', position: 'absolute', zIndex: 0 }} />
             </div>
-            <div className='row row-cols-1 row cols-md-3 row-cols-xl-6 g-3' style={{ marginTop: '20px', marginBottom: '130px', marginLeft: '100px', marginRight: '100px' }}>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-xl-6 g-3' style={{ backgroundColor: '#1c1c1c', color: 'white', paddingTop: '50px', paddingBottom: '130px', paddingRight: '60px', paddingLeft: '60px' }}>
                 {
                     comics.map(comic => (
-                        <div className='col' key={comic.id}>
+                        <div className='col mt-3' key={comic.id}>
                             <div className='cardBody textCenter'>
                                 <img className='card-img-top' src={comic.thumb} alt='' style={{ width: '180px', marginBottom: '10px', height: '180px' }} />
                                 <div className='card-body'>
