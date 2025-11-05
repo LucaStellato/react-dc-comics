@@ -259,7 +259,7 @@ export default function Main() {
                         </div>
                     </div>
                 </div>
-                <img src={logo} style={{ width: '550px', position: 'absolute', top: 'calc(100% - 150px)', right: 50, top: 368, transform: 'rotate(-30deg)', zIndex: 0 }} />
+                <img src={logo} style={{ width: '550px', position: 'absolute', top: 'calc(100% - 150px)', right: 50, top: 1350, transform: 'rotate(-30deg)', zIndex: 0 }} />
 
             </div>
 
