@@ -6,15 +6,20 @@ import power from '../assets/img/buy-dc-power-visa.svg';
 import final from '../assets/img/footer-bg.jpg';
 import favicon from '../assets/img/favicon.ico';
 import logo from '../assets/img/dc-logo.png';
+import jumbotron from '../assets/img/jumbotron.jpg';
 
 
 export default function Main() {
     return (
         <>
+            <div style={{ position: 'relative', objectFit: 'cover', width: '100%', height: '400px', overflow: 'hidden' }}>
+                <img src={jumbotron} style={{ width: '100%', position: 'absolute', zIndex: 0 }} />
+            </div>
             <div className=" p-4 " style={{ backgroundColor: 'black', minHeight: '120px', color: 'white', fontSize: '20px' }}>
                 <span style={{ marginTop: '20px', marginLeft: '60px' }}>--Content goes here--</span>
 
             </div >
+
             <div className="d-flex justify-content-center " style={{ backgroundColor: '#0282f9', minHeight: '150px', color: 'white', zIndex: 1, position: 'relative' }}>
                 <img src={comics} style={{ height: '60px', marginTop: '50px' }} />
                 <span className=' mx-3' style={{ marginTop: '60px', paddingRight: '30px' }}>DIGITAL COMICS</span>
