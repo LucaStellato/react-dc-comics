@@ -187,6 +187,7 @@ export default function Main() {
                         </div>
                     ))
                 }
+                <button type="button" class="btn btn-primary" style={{ marginLeft: '720px', marginTop: '20px', backgroundColor: '#0282f9' }}>VIEW MORE</button>
 
             </div >
 
@@ -259,9 +260,12 @@ export default function Main() {
                         </div>
                     </div>
                 </div>
-                <img src={logo} style={{ width: '550px', position: 'absolute', top: 'calc(100% - 150px)', right: 50, top: 1350, transform: 'rotate(-30deg)', zIndex: 0 }} />
+                <img src={logo} style={{ width: '700px', position: 'absolute', top: 'calc(100% - 150px)', right: 50, top: 1380, transform: 'rotate(-30deg)', zIndex: 0 }} />
 
+                <button type="button" class="btn btn-primary" style={{ marginLeft: '720px', marginTop: '20px', position: 'relative', top: '-1387px', left: '-700px', fontSize: '30px', backgroundColor: '#0282f9' }}>CURRENT SERIES</button>
             </div>
+
+
 
         </>
     )
