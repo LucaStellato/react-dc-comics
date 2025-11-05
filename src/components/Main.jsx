@@ -170,7 +170,7 @@ export default function Main() {
             <div style={{ position: 'relative', objectFit: 'cover', width: '100%', height: '400px', overflow: 'hidden' }}>
                 <img src={jumbotron} style={{ width: '100%', position: 'absolute', zIndex: 0 }} />
             </div>
-            <div className='row row-cols-1 row cols-md-3 row-cols-xl-6 g-3'>
+            <div className='row row-cols-1 row cols-md-3 row-cols-xl-6 g-3' style={{ marginTop: '20px', marginBottom: '130px', marginLeft: '100px', marginRight: '100px' }}>
                 {
                     comics.map(comic => (
                         <div className='col' key={comic.id}>
