@@ -7,7 +7,7 @@ import final from '../assets/img/footer-bg.jpg';
 import favicon from '../assets/img/favicon.ico';
 import logo from '../assets/img/dc-logo.png';
 import jumbotron from '../assets/img/jumbotron.jpg';
-import card from './card'
+import Card from './Card';
 
 export default function Main() {
     const comics = [
@@ -174,18 +174,7 @@ export default function Main() {
             <div className='row row-cols-1 row-cols-md-3 row-cols-xl-6 g-3' style={{ backgroundColor: '#1c1c1c', color: 'white', paddingTop: '50px', paddingBottom: '130px', paddingRight: '60px', paddingLeft: '60px' }}>
                 {
                     comics.map(comic => (
-                        <div className='col mt-3' key={comic.id}>
-                            <div className='cardBody textCenter'>
-                                <img className='card-img-top' src={comic.thumb} alt='' style={{ width: '180px', marginBottom: '10px', height: '180px' }} />
-                                <div className='card-body'>
-                                    <h4>{comic.series}</h4>
-
-                                </div>
-
-                            </div>
-
-
-                        </div>
+                        <Card Key={comic.id} series={comic.series} thumb={comic.thumb} />
                     ))
                 }
                 <button type="button" class="btn btn-primary" style={{ marginLeft: '720px', marginTop: '20px', backgroundColor: '#0282f9' }}>VIEW MORE</button>
