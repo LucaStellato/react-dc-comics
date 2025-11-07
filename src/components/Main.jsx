@@ -7,7 +7,7 @@ import final from '../assets/img/footer-bg.jpg';
 import favicon from '../assets/img/favicon.ico';
 import logo from '../assets/img/dc-logo.png';
 import jumbotron from '../assets/img/jumbotron.jpg';
-import Card from './Card';
+import Card from './Card.jsx';
 
 export default function Main() {
     const comics = [
